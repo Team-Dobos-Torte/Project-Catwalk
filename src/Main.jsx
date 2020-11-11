@@ -1,4 +1,5 @@
 import React from 'react';
+import Justin from './justin';
 
 class Main extends React.Component {
   constructor(props) {
@@ -10,6 +11,7 @@ class Main extends React.Component {
   render() {
     return (
       <>
+        <Justin />
         <h1>Hello {this.state.name}</h1>
       </>
     );
