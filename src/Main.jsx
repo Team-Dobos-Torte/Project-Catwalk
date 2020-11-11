@@ -1,5 +1,6 @@
 import React from 'react';
 import Justin from './justin';
+import Dylan from './Dylan.jsx';
 
 class Main extends React.Component {
   constructor(props) {
@@ -13,6 +14,7 @@ class Main extends React.Component {
       <>
         <Justin />
         <h1>Hello {this.state.name}</h1>
+        <Dylan name={this.state.name} />
       </>
     );
   }
